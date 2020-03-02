@@ -1,0 +1,25 @@
+{
+  "name": "ensure-resolutions",
+  "version": "1.0.0",
+  "description": "Updates package.json resolutions used by yarn",
+  "main": "lib/ensureResolutions.js",
+  "repository": "https://github.com/zelzen/ensure-resolutions",
+  "author": "Gabe M <hey@gabe.mx>",
+  "license": "MIT",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "bin": {
+    "ensure-resolutions": "bin/index.js"
+  },
+  "scripts": {
+    "lint": "eslint \"./**/*.{ts,js}\"",
+    "lint:fix": "yarn lint --fix"
+  },
+  "devDependencies": {
+    "@zelz/eslint-config": "^3.2.0",
+    "eslint": "^6.8.0",
+    "prettier": "^1.19.1"
+  }
+}
