@@ -1,11 +1,18 @@
 {
   "name": "ensure-resolutions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Updates package.json resolutions used by yarn",
   "main": "lib/ensureResolutions.js",
   "repository": "https://github.com/zelzen/ensure-resolutions",
   "author": "Gabe M <hey@gabe.mx>",
   "license": "MIT",
+  "keywords": [
+    "yarn",
+    "resolutions",
+    "update-resolutions",
+    "yarn.lock",
+    "dependency"
+  ],
   "files": [
     "bin",
     "lib"
