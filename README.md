@@ -1,6 +1,19 @@
 # ensure-resolutions  
 
-Updates package.json resolutions used by yarn
+Syncs yarn's `resolutions` versions with `dependencies` and `devDependencies`.   
+Useful for keeping yarn's resolutions up to date without using `yarn upgrade`.
+
+```
+// package.json
+{
+  "dependencies": {
+    "react": "^16.8.2"
+  },
+  "resolutions": {
+    "react": "16.2.0" // Will update React to dependencies version "16.8.2"
+  }
+}
+```
 
 ## Installation  
 
